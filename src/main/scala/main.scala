@@ -8,9 +8,7 @@ object Main extends App {
       val amounts: Array[Int] = salaryIncrements.map(increment => increment * salary)
       model.member(option, amounts)
     }
-    case "custom" => {
-      model.member(option, customIncrements)
-    }
+    case "custom" => model.member(option, customIncrements)
     case _ => model.mod(option, model.intVar(increments), model.intVar(0))
   }
 
