@@ -23,7 +23,7 @@ object OptionSolver {
     case _ => model.arithm(option, "=", minimum)
   }
 
-  def getOptions(salary: Int, salaryIncrements: Array[Int], customIncrements: Array[Int], incrementType: String, increments: Int, minimumValue: Int, maximumValue: Int, fixedAmount:Int = 0, passiveCoverageAmount: Int = 0): Array[Int]= {
+  def getOptions(salary: Int, salaryIncrements: Array[Int], customIncrements: Array[Int], incrementType: String = "increments", increments: Int, minimumValue: Int, maximumValue: Int, fixedAmount:Int = 0, passiveCoverageAmount: Int = 0): Array[Int]= {
 
     val model = new Model("options calculation")
     val option: IntVar = model.intVar("option", 0, 999999, false)
@@ -47,4 +47,6 @@ object OptionSolver {
     val solutionsArray = solutions.toArray[Solution](Array[Solution]())
     solutionsArray.map(solution => solution.getIntVal(option)).sortBy(b => b)
   }
+
+
 }

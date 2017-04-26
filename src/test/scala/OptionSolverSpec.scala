@@ -6,7 +6,6 @@ class OptionSolverSpec extends FunSpec {
         salary = 0,
         salaryIncrements = Array[Int](),
         customIncrements = Array[Int](),
-        incrementType = "incrememnts",
         maximumValue = 50000,
         minimumValue = 20000,
         increments = 5000
@@ -19,7 +18,6 @@ class OptionSolverSpec extends FunSpec {
         salary = 0,
         salaryIncrements = Array[Int](),
         customIncrements = Array[Int](),
-        incrementType = "incrememnts",
         maximumValue = 50000,
         minimumValue = 19000,
         increments = 5000
@@ -64,7 +62,6 @@ class OptionSolverSpec extends FunSpec {
         salary = 0,
         salaryIncrements = Array[Int](),
         customIncrements = Array[Int](),
-        incrementType = "incrememnts",
         maximumValue = 50000,
         minimumValue = 19000,
         increments = 5000,
