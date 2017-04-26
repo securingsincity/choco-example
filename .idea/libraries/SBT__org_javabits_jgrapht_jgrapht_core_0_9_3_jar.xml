@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.javabits.jgrapht:jgrapht-core:0.9.3:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.javabits.jgrapht/jgrapht-core/bundles/jgrapht-core-0.9.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.javabits.jgrapht/jgrapht-core/srcs/jgrapht-core-0.9.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
